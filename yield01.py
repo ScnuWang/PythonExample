@@ -33,7 +33,7 @@ def yield03(max):
 
 if __name__ == '__main__':
     print("=====斐波那契数列=====第一种方式=========")
-    print("返回结果为None;数列值是分开")
+    print("返回结果None;数列值是分开")
     yield01(5)
     print("======斐波那契数列=====第二种方式========")
     print("数据结果储存在一个变量里面，返回结果不会None;但是结构复杂")
@@ -46,3 +46,7 @@ if __name__ == '__main__':
         print(n)
 
 # 参考博文：https://blog.csdn.net/xjc200808/article/details/51753505
+# https://zhuanlan.zhihu.com/p/37257918
+
+
+
